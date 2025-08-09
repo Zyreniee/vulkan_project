@@ -11,6 +11,7 @@ int main() {
         std::cerr << "Failed to initialize GLFW" << std::endl;
         return -1;
     }
+    std::cout << "GLFW initialized successfully." << std::endl;
 
     // Create a windowed mode window and its OpenGL context
     GLFWwindow* window = glfwCreateWindow(640, 480, "Hello World", nullptr, nullptr);
